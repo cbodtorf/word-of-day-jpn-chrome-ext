@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Word of the Day (JPN)",
+  "description": "This extension shows a random Japanese Word",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "click here"
+  },
+  "background": {
+    "scripts": ["popup.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
